@@ -31,3 +31,5 @@ Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for
 == Frequently Asked Questions ==
 
 Still none.
+== Screenshots ==
+1. Subscribing to blog in firefox - look at the avatar.
