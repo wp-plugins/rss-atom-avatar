@@ -9,7 +9,7 @@ Add an image and favicon to your RSS and Atom feeds!
 
 == Description ==
 
-Rss and Atom allows you to set up an image as an avatar and as favicon for your posts. It looks really cute in search results =^___^=
+Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for ATOM feeds of your posts. It looks really cute in search results =^___^=
 
 
 ####History
@@ -25,7 +25,7 @@ Rss and Atom allows you to set up an image as an avatar and as favicon for your 
 
 1. Upload the complete folder `rss_atom_avatar` to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
-2. [Optional] Configure plugin via admin options-&gt;Rss Atom Avatar link
+2. Configure plugin via admin options-&gt;Rss Atom Avatar link
 4. Look at feeds and enjoy =^___^=
 
 == Frequently Asked Questions ==
