@@ -1,6 +1,5 @@
 === RSS Atom Avatar ===
 Author: Jehy
-Donate link: http://jehy.ru/index.en.html
 Tags: rss,atom,feed,image,images,post,posts
 Requires at least: 2.5
 Tested up to: 2.6.2
@@ -9,7 +8,7 @@ Add an image and favicon to your RSS and Atom feeds!
 
 == Description ==
 
-Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for ATOM feeds of your posts. It looks really cute in search results =^___^=
+Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for ATOM feeds of your posts.   It looks really cute in search results =^___^=
 
 
 ####History
