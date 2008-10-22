@@ -8,7 +8,7 @@ Add an image and favicon to your RSS and Atom feeds!
 
 == Description ==
 
-Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for ATOM feeds of your posts.   It looks really cute in search results =^___^=
+Rss standard allows to add an image (avatar) for feed, and Atom also allows favicons for feeds. This plugins adds that to your feeds - it looks really cute in search results and subscriptions =^___^=
 
 
 ####History
@@ -20,7 +20,8 @@ Rss and Atom allow you to set up an image as an avatar for RSS and a favicon for
 * English
 
 ####Please!
-If yo don't rate my plugin as 5/5 - please write why - and I will change, add options and fix bugs. It's very unpleasant to see silient low rates.
+If you don't rate my plugin as 5/5 - please write why - and I will change plugin, add options and fix bugs. It's very unpleasant to see silient low rates.  
+If you don't understand what plugin does - also don't rate it ;)
 
 == Installation ==
 
