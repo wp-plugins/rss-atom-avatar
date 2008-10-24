@@ -2,7 +2,7 @@
 Author: Jehy
 Tags: rss,atom,feed,image,images,post,posts
 Requires at least: 2.5
-Tested up to: 2.6.2
+Tested up to: 2.6.3
 Stable tag: 0.01
 Add an image and favicon to your RSS and Atom feeds!
 
