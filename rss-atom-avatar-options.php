@@ -129,7 +129,7 @@ global $_REQUEST;
   <p><strong><?php echo RSSATOMAV_IMAGE_DIM;?></strong>:<br> <?php echo RSSATOMAV_WIDTH;?>: <input type="text" name="feed_logo_w" value="<?php echo $feed_logo_w; ?>" size="5" />px | <?php echo RSSATOMAV_HEIGHT;?>: <input type="text" name="feed_logo_h" value="<?php echo $feed_logo_h; ?>" size="5" />px</p>
   <p><strong><?php echo RSSATOMAV_TRY_AUTODETECT;?></strong>: <input type="checkbox" checked name="try_autodetect" value="1"></p>
   <p>
-  <input type="submit" name="submit" value="<?php _e('Save Changes') ?>">
+  <input type="submit" name="submit" value="<?php _e('Save Changes') ?>" class="button-primary">
   </div></form>
   <?php
 }
