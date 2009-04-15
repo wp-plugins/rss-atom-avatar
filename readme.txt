@@ -13,7 +13,8 @@ Rss standard allows to add an image (avatar) for feed, and Atom also allows favi
 
 ####History
 
-0.01 - first release
+0.01 - First release    
+0.19 - Multilanguagal version with better performance and hints.
 
 ####Localization
 
