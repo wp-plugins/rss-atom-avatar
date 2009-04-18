@@ -16,6 +16,7 @@ Rss standard allows to add an image (avatar) for feed, and Atom also allows favi
 0.01 - First release    
 0.19 - Multilanguagal version with better performance and hints.    
 1.0 - Updated for compatibility with PHP4.
+1.1 - Fixed language file inclusion problem in some cases.
 
 ####Localization
 
