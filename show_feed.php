@@ -6,18 +6,18 @@ if(strpos(getcwd(),'wp-content/plugins/rss_atom_avatar'))
 
 new RSS_Atom_avatar_show_feed();
 class RSS_Atom_avatar_show_feed extends RSS_Atom_avatar
-{public function RSS_Atom_avatar_show_feed()
+{function RSS_Atom_avatar_show_feed()
 {
   add_action('rss_head', array($this,'addRssImage'));
   add_action('rss2_head', array($this,'addRssImage'));
   add_action('atom_head', array($this,'addAtomImage'));}
-public function addRssImage()
+function addRssImage()
 {  $this->RssAtomAvatar_addImage('rss');
 }
-public function addAtomImage()
+function addAtomImage()
 {  $this->RssAtomAvatar_addImage('atom');
 }
-public function RssAtomAvatar_addImage($type)
+function RssAtomAvatar_addImage($type)
 {
   $logo = get_option('feed_logo');
   if($type=='rss')

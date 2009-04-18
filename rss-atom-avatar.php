@@ -2,12 +2,12 @@
 
 if(strpos(getcwd(),'wp-content/plugins/rss-atom-avatar'))
 	die('Error: Plugin does not support standalone calls, damned hacker.');
-DEFINE(RSSATOMAVATAR_VERSION,'0.10');
+DEFINE(RSSATOMAVATAR_VERSION,'1.0');
 /*
 Plugin Name: Rss Atom Avatar
 Plugin URI: http://jehy.ru/wp-plugins.en.html
 Description: Add an image and favicon to your RSS and Atom feeds! To set up, visit <a href="options-general.php?page=rss-atom-avatar/rss-atom-avatar.php">configuration panel</a>.
-Version: 0.10
+Version: 1.0
 Author: Jehy
 Author URI: http://jehy.ru/index.en.html
 Min WP Version: 2.5
@@ -33,7 +33,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 class RSS_Atom_avatar
 {
 
-public function init_lang()
+function init_lang()
 {
   if(file_exists(ABSPATH . 'wp-content/plugins/rss-atom-avatar/lang/lang.'.WPLANG.'.inc'))
     $lang='.'.WPLANG;

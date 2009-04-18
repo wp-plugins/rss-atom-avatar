@@ -5,13 +5,13 @@ if(strpos(getcwd(),'wp-content/plugins/rss_atom_avatar'))
 
 new RSS_Atom_avatar_options();
 class RSS_Atom_avatar_options extends RSS_Atom_avatar
-{public function RSS_Atom_avatar_options()
+{function RSS_Atom_avatar_options()
 {
   register_activation_hook(__FILE__,array($this,'Activate'));
   register_deactivation_hook(__FILE__,array($this,'DeActivate'));
   add_action('admin_menu', array($this,'modify_menu'));
   $this->init_lang();}
-public function Activate()
+function Activate()
 {
   add_option('feed_logo','', 'Feed Logo');
   add_option('feed_logo_w','', 'Feed Width');
@@ -36,7 +36,7 @@ public function Activate()
     update_option('feed_icon',$icon);
 }
 
-public function DeActivate()
+function DeActivate()
 {
   delete_option('feed_icon');
   delete_option('feed_logo');
@@ -44,7 +44,7 @@ public function DeActivate()
   delete_option('feed_logo_h');
 }
 
-public function admin_options()
+function admin_options()
 {
 global $_REQUEST;
   echo '<div class="wrap"><h2>Rss Atom Avatar</h2>';
@@ -54,7 +54,7 @@ global $_REQUEST;
   echo '</div>';
 }
 
-public function modify_menu(){
+function modify_menu(){
   add_options_page(
     'Rss Atom Avatar',
     'Rss Atom Avatar',
@@ -64,7 +64,7 @@ public function modify_menu(){
     );
 }
 
-public function update_options()
+function update_options()
 {
 global $_REQUEST;
   $ok = true;
