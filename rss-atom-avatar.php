@@ -42,8 +42,8 @@ function init_lang()
 }
 
 if(is_admin())
-  include_once('rss-atom-avatar-options.php');
+  include_once(ABSPATH . 'wp-content/plugins/rss-atom-avatar/rss-atom-avatar-options.php');
 else
-	include_once('show_feed.php');
+	include_once(ABSPATH . 'wp-content/plugins/rss-atom-avatar/show_feed.php');
 
 ?>
