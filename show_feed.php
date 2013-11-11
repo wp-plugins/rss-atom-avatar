@@ -4,7 +4,6 @@ if(strpos(getcwd(),'wp-content/plugins/rss_atom_avatar'))
   die('Error: Plugin does not support standalone calls, damned hacker.');
 
 
-new RSS_Atom_avatar_show_feed();
 class RSS_Atom_avatar_show_feed extends RSS_Atom_avatar
 {function RSS_Atom_avatar_show_feed()
 {
@@ -45,4 +44,5 @@ elseif($type=='atom')
 }
 }
 
+new RSS_Atom_avatar_show_feed();
 ?>

@@ -2,8 +2,8 @@
 Author: Jehy
 Tags: rss,atom,feed,image,images,post,posts
 Requires at least: 2.5
-Tested up to: 3.4.2
-Stable tag: 1.2
+Tested up to: 3.7.1
+Stable tag: 1.2.1
 Add an image and favicon to your RSS and Atom feeds!
 
 == Description ==
@@ -16,8 +16,9 @@ Rss standard allows to add an image (avatar) for feed, and Atom also allows favi
 0.01 - First release    
 0.19 - Multilanguagal version with better performance and hints.    
 1.0 - Updated for compatibility with PHP4.    
-1.1 - Fixed language file inclusion problem in some cases.
-1.2 - Fixed link in admin panel.
+1.1 - Fixed language file inclusion problem in some cases.    
+1.2 - Fixed link in admin panel.    
+1.2.1 - Fixed class call and definition order.    
 
 ####Localization
 
