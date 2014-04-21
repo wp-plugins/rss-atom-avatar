@@ -11,7 +11,7 @@ Version: 1.2
 Author: Jehy
 Author URI: http://jehy.ru/index.en.html
 Min WP Version: 2.5
-Max WP Version: 3.4.2
+Max WP Version: 3.9
 */
 
 /*  Copyright 2008  Jehy  (email : jehy@valar.ru)
